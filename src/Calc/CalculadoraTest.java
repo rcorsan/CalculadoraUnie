@@ -19,7 +19,7 @@ class CalculadoraTest {
 
 	@Test
 	void testSumarr() {
-		//comentario
+		//comentario 
 		int a = 2;
 		int b = 3;
 		Calculadora prueba = new Calculadora(a,b);
@@ -42,7 +42,13 @@ class CalculadoraTest {
 
 	@Test
 	void testMultiplicar() {
-		fail("Not yet implemented");
+
+		int a = 3;
+		int b = 2;
+		Calculadora prueba = new Calculadora(a,b);
+		int multiplicar = prueba.multiplicar();
+		int resultado = 6;
+		assertEquals(resultado, multiplicar);
 	}
 
 	@Test
