@@ -9,12 +9,12 @@ public class Calculadora {
 		this.num2=numero2;
 			
 	}
-	public int sumarr() {
+	public int sumar() {
 		return this.num1+this.num2;
 			
 	}
 	public int restar() {
-		return num1+num2;
+		return num1-num2;
 			
 	}
 	public int multiplicar() {
@@ -23,10 +23,6 @@ public class Calculadora {
 	}
 	public int dividir() {
 		return num1%num2;
-			
-	}
-	public int elevar() {
-		return num1*num1;
 			
 	}
 
