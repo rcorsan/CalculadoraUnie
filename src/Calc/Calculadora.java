@@ -22,7 +22,7 @@ public class Calculadora {
 			
 	}
 	public int dividir() {
-		return num1%num2;
+		return num1/num2;
 			
 	}
 

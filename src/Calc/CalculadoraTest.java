@@ -14,12 +14,11 @@ class CalculadoraTest {
 
 	@Test
 	void testCalculadora() {
-		fail("Not yet implemented");
+		Calculadora prueba = new Calculadora(2,1);
 	}
 
 	@Test
 	void testSumarr() {
-		//comentario 
 		int a = 2;
 		int b = 3;
 		Calculadora prueba = new Calculadora(a,b);
@@ -53,7 +52,12 @@ class CalculadoraTest {
 
 	@Test
 	void testDividir() {
-		fail("Not yet implemented");
+		int a = 6;
+		int b = 2;
+		Calculadora prueba = new Calculadora(a,b);
+		int dividir = prueba.dividir();
+		int resultado = 3;
+		assertEquals(resultado, dividir);
 	}
 
 }
